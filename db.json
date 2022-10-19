@@ -1,628 +1,632 @@
 {
-    "characters": [
-      {
-        "id": 1,
-        "name": "Harry Potter",
-        "species": "human",
-        "house": "Gryffindor",
-        "wand": {
-          "wood": "holly",
-          "core": "phoenix feather",
-          "length": 11
-        },
-        "patronus": "stag",
-        "image": "http://hp-api.herokuapp.com/images/harry.jpg"
+  "characters": [
+    {
+      "id": 1,
+      "name": "Harry Potter",
+      "species": "human",
+      "house": "Gryffindor",
+      "wand": {
+        "wood": "holly",
+        "core": "phoenix feather",
+        "length": 11
       },
-      {
-        "id": 2,
-        "name": "Hermione Granger",
-        "species": "human",
-        "house": "Gryffindor",
-        "wand": {
-          "wood": "vine",
-          "core": "dragon heartstring",
-          "length": ""
-        },
-        "patronus": "otter",
-        "image": "http://hp-api.herokuapp.com/images/hermione.jpeg"
+      "patronus": "stag",
+      "image": "http://hp-api.herokuapp.com/images/harry.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Hermione Granger",
+      "species": "human",
+      "house": "Gryffindor",
+      "wand": {
+        "wood": "vine",
+        "core": "dragon heartstring",
+        "length": ""
       },
-      {
-        "id": 3,
-        "name": "Ron Weasley",
-        "species": "human",
-        "house": "Gryffindor",
-        "wand": {
-          "wood": "willow",
-          "core": "unicorn tail-hair",
-          "length": 14
-        },
-        "patronus": "Jack Russell terrier",
-        "image": "http://hp-api.herokuapp.com/images/ron.jpg"
+      "patronus": "otter",
+      "image": "http://hp-api.herokuapp.com/images/hermione.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Ron Weasley",
+      "species": "human",
+      "house": "Gryffindor",
+      "wand": {
+        "wood": "willow",
+        "core": "unicorn tail-hair",
+        "length": 14
       },
-      {
-        "id": 4,
-        "name": "Draco Malfoy",
-        "species": "human",
-        "house": "Slytherin",
-        "wand": {
-          "wood": "hawthorn",
-          "core": "unicorn tail-hair",
-          "length": 10
-        },
-        "patronus": "",
-        "image": "http://hp-api.herokuapp.com/images/draco.jpg"
+      "patronus": "Jack Russell terrier",
+      "image": "http://hp-api.herokuapp.com/images/ron.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Draco Malfoy",
+      "species": "human",
+      "house": "Slytherin",
+      "wand": {
+        "wood": "hawthorn",
+        "core": "unicorn tail-hair",
+        "length": 10
       },
-      {
-        "id": 5,
-        "name": "Minerva McGonagall",
-        "species": "human",
-        "house": "Gryffindor",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "tabby cat",
-        "image": "http://hp-api.herokuapp.com/images/mcgonagall.jpg"
+      "patronus": "",
+      "image": "http://hp-api.herokuapp.com/images/draco.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Minerva McGonagall",
+      "species": "human",
+      "house": "Gryffindor",
+      "wand": {
+        "wood": "",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 6,
-        "name": "Cedric Diggory",
-        "species": "human",
-        "house": "Hufflepuff",
-        "wand": {
-          "wood": "ash",
-          "core": "unicorn hair",
-          "length": 12.25
-        },
-        "patronus": "",
-        "image": "http://hp-api.herokuapp.com/images/cedric.png"
+      "patronus": "tabby cat",
+      "image": "http://hp-api.herokuapp.com/images/mcgonagall.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Cedric Diggory",
+      "species": "human",
+      "house": "Hufflepuff",
+      "wand": {
+        "wood": "ash",
+        "core": "unicorn hair",
+        "length": 12.25
       },
-      {
-        "id": 7,
-        "name": "Cho Chang",
-        "species": "human",
-        "house": "Ravenclaw",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "swan",
-        "image": "http://hp-api.herokuapp.com/images/cho.jpg"
+      "patronus": "",
+      "image": "http://hp-api.herokuapp.com/images/cedric.png"
+    },
+    {
+      "id": 7,
+      "name": "Cho Chang",
+      "species": "human",
+      "house": "Ravenclaw",
+      "wand": {
+        "wood": "",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 8,
-        "name": "Severus Snape",
-        "species": "human",
-        "house": "Slytherin",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "doe",
-        "image": "http://hp-api.herokuapp.com/images/snape.jpg"
+      "patronus": "swan",
+      "image": "http://hp-api.herokuapp.com/images/cho.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Severus Snape",
+      "species": "human",
+      "house": "Slytherin",
+      "wand": {
+        "wood": "",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 9,
-        "name": "Rubeus Hagrid",
-        "species": "half-giant",
-        "house": "Gryffindor",
-        "wand": {
-          "wood": "oak",
-          "core": "",
-          "length": 16
-        },
-        "patronus": "",
-        "image": "http://hp-api.herokuapp.com/images/hagrid.png"
+      "patronus": "doe",
+      "image": "http://hp-api.herokuapp.com/images/snape.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Rubeus Hagrid",
+      "species": "half-giant",
+      "house": "Gryffindor",
+      "wand": {
+        "wood": "oak",
+        "core": "",
+        "length": 16
       },
-      {
-        "id": 10,
-        "name": "Neville Longbottom",
-        "species": "human",
-        "house": "Gryffindor",
-        "wand": {
-          "wood": "cherry",
-          "core": "unicorn tail-hair",
-          "length": 13
-        },
-        "patronus": "",
-        "image": "http://hp-api.herokuapp.com/images/neville.jpg"
+      "patronus": "",
+      "image": "http://hp-api.herokuapp.com/images/hagrid.png"
+    },
+    {
+      "id": 10,
+      "name": "Neville Longbottom",
+      "species": "human",
+      "house": "Gryffindor",
+      "wand": {
+        "wood": "cherry",
+        "core": "unicorn tail-hair",
+        "length": 13
       },
-      {
-        "id": 11,
-        "name": "Luna Lovegood",
-        "species": "human",
-        "house": "Ravenclaw",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "hare",
-        "image": "http://hp-api.herokuapp.com/images/luna.jpg"
+      "patronus": "",
+      "image": "http://hp-api.herokuapp.com/images/neville.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Luna Lovegood",
+      "species": "human",
+      "house": "Ravenclaw",
+      "wand": {
+        "wood": "",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 12,
-        "name": "Ginny Weasley",
-        "species": "human",
-        "house": "Gryffindor",
-        "wand": {
-          "wood": "yew",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "horse",
-        "image": "http://hp-api.herokuapp.com/images/ginny.jpg"
+      "patronus": "hare",
+      "image": "http://hp-api.herokuapp.com/images/luna.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Ginny Weasley",
+      "species": "human",
+      "house": "Gryffindor",
+      "wand": {
+        "wood": "yew",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 13,
-        "name": "Sirius Black",
-        "species": "human",
-        "house": "Gryffindor",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "hare",
-        "image": "http://hp-api.herokuapp.com/images/sirius.JPG"
+      "patronus": "horse",
+      "image": "http://hp-api.herokuapp.com/images/ginny.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Sirius Black",
+      "species": "human",
+      "house": "Gryffindor",
+      "wand": {
+        "wood": "",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 14,
-        "name": "Remus Lupin",
-        "species": "werewolf",
-        "house": "Gryffindor",
-        "wand": {
-          "wood": "cypress",
-          "core": "unicorn tail-hair",
-          "length": 10.25
-        },
-        "patronus": "wolf",
-        "image": "http://hp-api.herokuapp.com/images/lupin.jpg"
+      "patronus": "hare",
+      "image": "http://hp-api.herokuapp.com/images/sirius.JPG"
+    },
+    {
+      "id": 14,
+      "name": "Remus Lupin",
+      "species": "werewolf",
+      "house": "Gryffindor",
+      "wand": {
+        "wood": "cypress",
+        "core": "unicorn tail-hair",
+        "length": 10.25
       },
-      {
-        "id": 15,
-        "name": "Arthur Weasley",
-        "species": "human",
-        "house": "Gryffindor",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "weasel",
-        "image": "http://hp-api.herokuapp.com/images/arthur.jpg"
+      "patronus": "wolf",
+      "image": "http://hp-api.herokuapp.com/images/lupin.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Arthur Weasley",
+      "species": "human",
+      "house": "Gryffindor",
+      "wand": {
+        "wood": "",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 16,
-        "name": "Bellatrix Lestrange",
-        "species": "human",
-        "house": "Slytherin",
-        "wand": {
-          "wood": "walnut",
-          "core": "dragon heartstring",
-          "length": 12.75
-        },
-        "patronus": "",
-        "image": "http://hp-api.herokuapp.com/images/bellatrix.jpg"
+      "patronus": "weasel",
+      "image": "http://hp-api.herokuapp.com/images/arthur.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Bellatrix Lestrange",
+      "species": "human",
+      "house": "Slytherin",
+      "wand": {
+        "wood": "walnut",
+        "core": "dragon heartstring",
+        "length": 12.75
       },
-      {
-        "id": 17,
-        "name": "Lord Voldemort",
-        "species": "human",
-        "house": "Slytherin",
-        "wand": {
-          "wood": "yew",
-          "core": "phoenix feather",
-          "length": 13.5
-        },
-        "patronus": "",
-        "image": "http://hp-api.herokuapp.com/images/voldemort.jpg"
+      "patronus": "",
+      "image": "http://hp-api.herokuapp.com/images/bellatrix.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Lord Voldemort",
+      "species": "human",
+      "house": "Slytherin",
+      "wand": {
+        "wood": "yew",
+        "core": "phoenix feather",
+        "length": 13.5
       },
-      {
-        "id": 18,
-        "name": "Horace Slughorn",
-        "species": "human",
-        "house": "Slytherin",
-        "wand": {
-          "wood": "cedar",
-          "core": "dragon heartstring",
-          "length": 10.25
-        },
-        "patronus": "",
-        "image": "http://hp-api.herokuapp.com/images/slughorn.JPG"
+      "patronus": "",
+      "image": "http://hp-api.herokuapp.com/images/voldemort.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Horace Slughorn",
+      "species": "human",
+      "house": "Slytherin",
+      "wand": {
+        "wood": "cedar",
+        "core": "dragon heartstring",
+        "length": 10.25
       },
-      {
-        "id": 19,
-        "name": "Kingsley Shacklebolt",
-        "species": "human",
-        "house": "",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "lynx",
-        "image": "http://hp-api.herokuapp.com/images/kingsley.jpg"
+      "patronus": "",
+      "image": "http://hp-api.herokuapp.com/images/slughorn.JPG"
+    },
+    {
+      "id": 19,
+      "name": "Kingsley Shacklebolt",
+      "species": "human",
+      "house": "",
+      "wand": {
+        "wood": "",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 20,
-        "name": "Dolores Umbridge",
-        "species": "human",
-        "house": "Slytherin",
-        "wand": {
-          "wood": "birch",
-          "core": "dragon heartstring",
-          "length": 8
-        },
-        "patronus": "persian cat",
-        "image": "http://hp-api.herokuapp.com/images/umbridge.jpg"
+      "patronus": "lynx",
+      "image": "http://hp-api.herokuapp.com/images/kingsley.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Dolores Umbridge",
+      "species": "human",
+      "house": "Slytherin",
+      "wand": {
+        "wood": "birch",
+        "core": "dragon heartstring",
+        "length": 8
       },
-      {
-        "id": 21,
-        "name": "Lucius Malfoy",
-        "species": "human",
-        "house": "Slytherin",
-        "wand": {
-          "wood": "elm",
-          "core": "dragon heartstring",
-          "length": 18
-        },
-        "patronus": "",
-        "image": "http://hp-api.herokuapp.com/images/lucius.jpg"
+      "patronus": "persian cat",
+      "image": "http://hp-api.herokuapp.com/images/umbridge.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Lucius Malfoy",
+      "species": "human",
+      "house": "Slytherin",
+      "wand": {
+        "wood": "elm",
+        "core": "dragon heartstring",
+        "length": 18
       },
-      {
-        "id": 22,
-        "name": "Vincent Crabbe",
-        "species": "human",
-        "house": "Slytherin",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "",
-        "image": "http://hp-api.herokuapp.com/images/crabbe.jpg"
+      "patronus": "",
+      "image": "http://hp-api.herokuapp.com/images/lucius.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Vincent Crabbe",
+      "species": "human",
+      "house": "Slytherin",
+      "wand": {
+        "wood": "",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 23,
-        "name": "Gregory Goyle",
-        "species": "human",
-        "house": "Slytherin",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "",
-        "image": "http://hp-api.herokuapp.com/images/goyle.jpg"
+      "patronus": "",
+      "image": "http://hp-api.herokuapp.com/images/crabbe.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Gregory Goyle",
+      "species": "human",
+      "house": "Slytherin",
+      "wand": {
+        "wood": "",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 24,
-        "name": "Mrs Norris",
-        "species": "cat",
-        "house": "",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "",
-        "image": "http://hp-api.herokuapp.com/images/norris.JPG"
+      "patronus": "",
+      "image": "http://hp-api.herokuapp.com/images/goyle.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Mrs Norris",
+      "species": "cat",
+      "house": "",
+      "wand": {
+        "wood": "",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 25,
-        "name": "Argus Filch",
-        "species": "human",
-        "house": "",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "",
-        "image": "http://hp-api.herokuapp.com/images/filch.jpg"
+      "patronus": "",
+      "image": "http://hp-api.herokuapp.com/images/norris.JPG"
+    },
+    {
+      "id": 25,
+      "name": "Argus Filch",
+      "species": "human",
+      "house": "",
+      "wand": {
+        "wood": "",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 26,
-        "name": "Vernon Dursley",
-        "species": "human",
-        "house": "",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "",
-        "image": "https://static.wikia.nocookie.net/harrypotter/images/2/20/Vernon_Dursley.jpg"
+      "patronus": "",
+      "image": "http://hp-api.herokuapp.com/images/filch.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Vernon Dursley",
+      "species": "human",
+      "house": "",
+      "wand": {
+        "wood": "",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 27,
-        "name": "Petunia Dursley",
-        "species": "human",
-        "house": "",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "",
-        "image": "https://static.wikia.nocookie.net/harrypotter/images/6/64/Petunia_DH1.png/"
+      "patronus": "",
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/2/20/Vernon_Dursley.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Petunia Dursley",
+      "species": "human",
+      "house": "",
+      "wand": {
+        "wood": "",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 28,
-        "name": "Dudley Dursley",
-        "species": "human",
-        "house": "",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "",
-        "image": "https://assets.mycast.io/characters/47580_normal.jpg"
+      "patronus": "",
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/6/64/Petunia_DH1.png/"
+    },
+    {
+      "id": 28,
+      "name": "Dudley Dursley",
+      "species": "human",
+      "house": "",
+      "wand": {
+        "wood": "",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 29,
-        "name": "Lily Potter",
-        "species": "human",
-        "house": "Gryffindor",
-        "wand": {
-          "wood": "willow",
-          "core": "",
-          "length": 10.25
-        },
-        "patronus": "",
-        "image": "https://static.wikia.nocookie.net/harrypotter/images/c/ce/Lily_Potter1.jpg"
+      "patronus": "",
+      "image": "https://assets.mycast.io/characters/47580_normal.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Lily Potter",
+      "species": "human",
+      "house": "Gryffindor",
+      "wand": {
+        "wood": "willow",
+        "core": "",
+        "length": 10.25
       },
-      {
-        "id": 30,
-        "name": "James Potter",
-        "species": "human",
-        "house": "Gryffindor",
-        "wand": {
-          "wood": "mahogany",
-          "core": "",
-          "length": 11
-        },
-        "patronus": "stag",
-        "image": "https://static.wikia.nocookie.net/harrypotter/images/1/10/James_Potter_I_Deathly_Hallows.jpg"
+      "patronus": "",
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/c/ce/Lily_Potter1.jpg"
+    },
+    {
+      "id": 30,
+      "name": "James Potter",
+      "species": "human",
+      "house": "Gryffindor",
+      "wand": {
+        "wood": "mahogany",
+        "core": "",
+        "length": 11
       },
-      {
-        "id": 31,
-        "name": "Albus Dumbledore",
-        "species": "human",
-        "house": "Gryffindor",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "",
-        "image": "https://static.wikia.nocookie.net/harrypotter/images/4/40/Albus_Dumbledore_%28HBP_promo%29_3.jpg"
+      "patronus": "stag",
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/1/10/James_Potter_I_Deathly_Hallows.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Albus Dumbledore",
+      "species": "human",
+      "house": "Gryffindor",
+      "wand": {
+        "wood": "",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 32,
-        "name": "Madam Pomfrey",
-        "species": "human",
-        "house": "",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "",
-        "image": "https://static.wikia.nocookie.net/harrypotter/images/5/56/Madam_Pomfrey.png"
+      "patronus": "",
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/4/40/Albus_Dumbledore_%28HBP_promo%29_3.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Madam Pomfrey",
+      "species": "human",
+      "house": "",
+      "wand": {
+        "wood": "",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 33,
-        "name": "Marge Dursley",
-        "species": "human",
-        "house": "",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "",
-        "image": "https://static.wikia.nocookie.net/harrypotter/images/7/7e/Marjorie_dursley_promo.jpg"
+      "patronus": "",
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/5/56/Madam_Pomfrey.png"
+    },
+    {
+      "id": 33,
+      "name": "Marge Dursley",
+      "species": "human",
+      "house": "",
+      "wand": {
+        "wood": "",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 34,
-        "name": "Bathilda Bagshot",
-        "species": "human",
-        "house": "",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "",
-        "image": "https://static.wikia.nocookie.net/harrypotter/images/0/0d/Bathilda_Bagshot_profile.jpg"
+      "patronus": "",
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/7/7e/Marjorie_dursley_promo.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Bathilda Bagshot",
+      "species": "human",
+      "house": "",
+      "wand": {
+        "wood": "",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 35,
-        "name": "Quirinus Quirrel",
-        "species": "human",
-        "house": "Ravenclaw",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "",
-        "image": "https://static.wikia.nocookie.net/harrypotter/images/d/d2/Quirinus_Quirrell_PS_promo.jpg"
+      "patronus": "",
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/0/0d/Bathilda_Bagshot_profile.jpg"
+    },
+    {
+      "id": 35,
+      "name": "Quirinus Quirrel",
+      "species": "human",
+      "house": "Ravenclaw",
+      "wand": {
+        "wood": "",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 36,
-        "name": "Marcus Flint",
-        "species": "human",
-        "house": "Slytherin",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "",
-        "image": "https://static.wikia.nocookie.net/harrypotter/images/8/80/Monmarcus.jpg"
+      "patronus": "",
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/d/d2/Quirinus_Quirrell_PS_promo.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Marcus Flint",
+      "species": "human",
+      "house": "Slytherin",
+      "wand": {
+        "wood": "",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 37,
-        "name": "Millicent Bulstrode",
-        "species": "human",
-        "house": "Slytherin",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "",
-        "image": "https://static.wikia.nocookie.net/harrypotter/images/4/48/Millicent_Bulstrode_2.jpg"
+      "patronus": "",
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/8/80/Monmarcus.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Millicent Bulstrode",
+      "species": "human",
+      "house": "Slytherin",
+      "wand": {
+        "wood": "",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 38,
-        "name": "Pansy Parkinson",
-        "species": "human",
-        "house": "Slytherin",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "",
-        "image": "https://static.wikia.nocookie.net/harrypotter/images/8/81/Pansy_Parkinson_infobox.png"
+      "patronus": "",
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/4/48/Millicent_Bulstrode_2.jpg"
+    },
+    {
+      "id": 38,
+      "name": "Pansy Parkinson",
+      "species": "human",
+      "house": "Slytherin",
+      "wand": {
+        "wood": "",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 39,
-        "name": "Narcissa Malfoy",
-        "species": "human",
-        "house": "Slytherin",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "",
-        "image": "https://static.wikia.nocookie.net/harrypotter/images/7/78/Narcissa_Malfoy.png"
+      "patronus": "",
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/8/81/Pansy_Parkinson_infobox.png"
+    },
+    {
+      "id": 39,
+      "name": "Narcissa Malfoy",
+      "species": "human",
+      "house": "Slytherin",
+      "wand": {
+        "wood": "",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 40,
-        "name": "Helga Hufflepuff",
-        "species": "human",
-        "house": "Hufflepuff",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "",
-        "image": "https://static.wikia.nocookie.net/harrypotter/images/d/d6/PM_HelgaHufflepuff_Founders.jpg"
+      "patronus": "",
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/7/78/Narcissa_Malfoy.png"
+    },
+    {
+      "id": 40,
+      "name": "Helga Hufflepuff",
+      "species": "human",
+      "house": "Hufflepuff",
+      "wand": {
+        "wood": "",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 41,
-        "name": "Justin Finch-Fletchley",
-        "species": "human",
-        "house": "Hufflepuff",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "",
-        "image": "https://static.wikia.nocookie.net/harrypotter/images/1/16/Justin_Finch-Fletchley_%28McGonagall%27s_Class%29_%281%29.png"
+      "patronus": "",
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/d/d6/PM_HelgaHufflepuff_Founders.jpg"
+    },
+    {
+      "id": 41,
+      "name": "Justin Finch-Fletchley",
+      "species": "human",
+      "house": "Hufflepuff",
+      "wand": {
+        "wood": "",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 42,
-        "name": "Ernie Macmillan",
-        "species": "human",
-        "house": "Hufflepuff",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "",
-        "image": "https://static.wikia.nocookie.net/harrypotter/images/d/de/Ernie_GOF.jpg"
+      "patronus": "",
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/1/16/Justin_Finch-Fletchley_%28McGonagall%27s_Class%29_%281%29.png"
+    },
+    {
+      "id": 42,
+      "name": "Ernie Macmillan",
+      "species": "human",
+      "house": "Hufflepuff",
+      "wand": {
+        "wood": "",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 43,
-        "name": "Susan Bones",
-        "species": "human",
-        "house": "Hufflepuff",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "",
-        "image": "https://i.redd.it/wy4jbgxxyem71.jpg"
+      "patronus": "",
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/d/de/Ernie_GOF.jpg"
+    },
+    {
+      "id": 43,
+      "name": "Susan Bones",
+      "species": "human",
+      "house": "Hufflepuff",
+      "wand": {
+        "wood": "",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 44,
-        "name": "Hannah Abbott",
-        "species": "human",
-        "house": "Hufflepuff",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "",
-        "image": "https://static.wikia.nocookie.net/harrypotter/images/b/b7/Harry-potter-goblet-of-fire-hannah.jpg"
+      "patronus": "",
+      "image": "https://i.redd.it/wy4jbgxxyem71.jpg"
+    },
+    {
+      "id": 44,
+      "name": "Hannah Abbott",
+      "species": "human",
+      "house": "Hufflepuff",
+      "wand": {
+        "wood": "",
+        "core": "",
+        "length": ""
       },
-      {
-        "id": 45,
-        "name": "Pomona Sprout",
-        "species": "human",
-        "house": "Hufflepuff",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "",
-        "image": "https://static.wikia.nocookie.net/harrypotter/images/6/6e/Pomona_Sprout_DHF2.jpg"
-      },
-      {
-        "id": 46,
-        "name": "Nymphadora Tonks",
-        "species": "human",
-        "house": "Hufflepuff",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "",
-        "image": "https://static.wikia.nocookie.net/harrypotter/images/c/c8/Nymphadora_Tonks_DH_promo_headshot_.jpg"
-      },
-      {
-        "id": 47,
-        "name": "Newt Scamander",
-        "species": "human",
-        "house": "Hufflepuff",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "",
-        "image": "https://static.wikia.nocookie.net/harrypotter/images/3/36/Newton_Scamander_Profile_crop.png"
-      },
-      {
-        "id": 48,
-        "name": "Bridget Wenlock",
-        "species": "human",
-        "house": "Hufflepuff",
-        "wand": {
-          "wood": "",
-          "core": "",
-          "length": ""
-        },
-        "patronus": "",
-        "image": "https://static.wikia.nocookie.net/harrypotter/images/4/41/BridgetWenlock.png"
-      }
-    ]
-  }
+      "patronus": "",
+      "image": "https://static.wikia.nocookie.net/harrypotter/images/b/b7/Harry-potter-goblet-of-fire-hannah.jpg"
+    },
+  
+   
+    {
+      "name": "Hagrid",
+      "house": "g",
+      "image": "https://www.thedigitalfix.com/wp-content/sites/thedigitalfix/2022/10/Robbie-Coltrane-Hagrid.jpg",
+      "id": 49
+    },
+    {
+      "name": "hagrid2",
+      "house": "s",
+      "image": "https://www.thedigitalfix.com/wp-content/sites/thedigitalfix/2022/10/Robbie-Coltrane-Hagrid.jpg",
+      "id": 50
+    },
+    {
+      "name": "33",
+      "house": "33",
+      "image": "https://www.thedigitalfix.com/wp-content/sites/thedigitalfix/2022/10/Robbie-Coltrane-Hagrid.jpg",
+      "id": 51
+    },
+    {
+      "name": "11",
+      "house": "11",
+      "image": "https://www.thedigitalfix.com/wp-content/sites/thedigitalfix/2022/10/Robbie-Coltrane-Hagrid.jpg",
+      "id": 52
+    },
+    {
+      "name": "H",
+      "house": "H",
+      "image": "https://tvline.com/wp-content/uploads/2022/10/robbie-coltrane-hagrid-dead.jpg",
+      "id": 53
+    },
+    {
+      "name": "aa",
+      "house": "aa",
+      "image": "https://images.ctfassets.net/usf1vwtuqyxm/7mIWG5gckiq99bWhg9hGSU/3c8829a7b23afe597a00d88872ff2540/HP-F4-goblet-of-fire-hagrid-wearing-flower-harry-walking-web-landscape?fm=jpg&q=70&w=2560",
+      "id": 54
+    },
+    {
+      "name": "44",
+      "house": "44",
+      "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2022%2F10%2F14%2FRobbie-Coltrane-Harry-Potter_101422_3.jpg",
+      "id": 55
+    },
+    {
+      "name": "55",
+      "house": "55",
+      "image": "https://images.english.elpais.com/resizer/gx-bIS6rqCnMliwjV3h9HNBaAdM=/414x0/filters:focal(484x233:494x243)/cloudfront-eu-central-1.images.arcpublishing.com/prisa/OJYMBDZSCRHERMNKVX4AVKDA2U.jpg",
+      "id": 56
+    },
+    {
+      "name": "88",
+      "house": "88",
+      "image": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/01/hagrid-hogwarts.jpg",
+      "id": 58
+    }
+  ]
+}

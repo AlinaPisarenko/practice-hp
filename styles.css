@@ -1,27 +1,37 @@
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
 .list{
     height: 25vh;
     display: flex;
+    gap:10px;
     overflow-x: scroll;
+    margin-bottom: 5rem;
 }
 
 .detail-image {
    height: 35rem;
-    /* width: 22rem; */
+
 }
 
-.each-charachter {
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .each-charachter {
  position: absolute;
  left: 50%;
  top: 70%;
  transform: translate(-50%,-50%);
-}
+} */
 
 #new-charachter {
-position: absolute;
- left: 50%;
- top: 120%;
- transform: translate(-50%,-50%); 
- width: 22rem;;
+ width: 40rem;
  display: flex;
+ gap: 10px;
  flex-direction: column;
 }
